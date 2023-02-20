@@ -3,7 +3,7 @@ using namespace std;
 
 class Person
 {
-	//姓名  �?共权�?
+	//姓名  �?共权�?
 public:
 	string m_Name;
 
@@ -11,14 +11,15 @@ public:
 protected:
 	string m_Car;
 
-	//银�?�卡密码  私有权限
+	//银�?�卡密码  私有权限 
 private:
 	int m_Password;
 
 public:
 	void func()
 	{
-		m_Name = "����";
+		m
+		m_Name = "����";
 		m_Car = "asd";
 		m_Password = 123456;
 	}
@@ -27,7 +28,7 @@ public:
 int main() {
 
 	Person p;
-	p.m_Name = "����";
+	p.m_Name = "����";
 	//p.func();
     cout<<p.m_Name<<endl;
 
